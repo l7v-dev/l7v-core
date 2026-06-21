@@ -1,0 +1,23 @@
+{
+  "name": "l7v-core",
+  "version": "0.1.0",
+  "description": "Dependency-free logic primitives for the L7V ecosystem.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./result":    "./core/result.js",
+    "./parse":     "./core/parse.js",
+    "./validate":  "./core/validate.js",
+    "./transform": "./core/transform.js",
+    "./string":    "./core/string.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["l7v", "simple", "composable", "primitives"],
+  "license": "MIT"
+}
